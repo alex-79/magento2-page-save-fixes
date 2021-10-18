@@ -1,0 +1,16 @@
+diff --git a/magento/module-cms/Model/PageRepository.php b/magento/module-cms/Model/PageRepository.php
+index 2816b4c..6508aa2 100644
+--- a/magento/module-cms/Model/PageRepository.php
++++ b/magento/module-cms/Model/PageRepository.php
+@@ -188,7 +188,7 @@ class PageRepository implements PageRepositoryInterface
+                 $page->setStoreId($storeId);
+             }
+             $this->validateLayoutUpdate($page);
+-            $this->validateRoutesDuplication($page);
++            // $this->validateRoutesDuplication($page);
+             $this->resource->save($page);
+             $this->identityMap->add($page);
+         } catch (LocalizedException $exception) {
+-- 
+2.20.1
+

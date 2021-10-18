@@ -1,0 +1,16 @@
+{
+    "name": "alex-79/magento2-page-save-fixes",
+    "description": "Magento 2 fixes: CMS Page saving fails with 'The value specified in the URL Key field would generate a URL that already exists.'",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "require": {
+        "cweagans/composer-patches": "^1.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Bobylev",
+            "email": "alexander.bobylev@gmail.com"
+        }
+    ]
+}
