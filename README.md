@@ -15,7 +15,7 @@ Fix for https://github.com/magento/magento2/issues/31007
         "composer-exit-on-patch-failure": true,
         "patches": {
             "magento/module-cms": {
-                "Fix for https://github.com/magento/magento2/issues/31007": "vendor/alex-79/magento2-cms-save-fixes/vendorPatch/magento/module-cms/Model/PageRepository.patch",
+                "Fix for https://github.com/magento/magento2/issues/31007": "vendor/alex-79/magento2-cms-save-fixes/vendorPatch/magento/module-cms/Model/PageRepository.patch"
             }
         }
     }
